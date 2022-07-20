@@ -53,7 +53,7 @@ ul {
 
 //  HERO  //
 
-img {
+.hero img {
   width: 500px;
   height: 300px;
 }
@@ -92,4 +92,119 @@ button {
   padding: 10px;
   border-radius: 10px;
   font-size: 14px;
+}
+
+//   INFO   //
+
+h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.card img {
+  border: 4px solid #1f2937;
+  box-shadow: 0.2em 0.2em #000 50%;
+  border-radius: 10px;
+}
+
+.card p {
+  color: #1f2937;
+  font-size: 15px;
+  //   text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 3em;
+  margin-bottom: 3em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  text-align: center;
+  width: 150px;
+}
+
+//  QUOTE  //
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+
+  p {
+    color: #1f2937;
+    font-size: 30px;
+    width: 50%;
+    line-height: 1.3em;
+    font-weight: 200;
+  }
+
+  .thor {
+    font-size: 20px;
+    align-self: flex-end;
+    font-weight: bold;
+  }
+
+  //   padding-left: 10em;
+  //   padding-right: 10em;
+}
+
+//  SIGN UP   //
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  margin: 1em;
+
+  .blue-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 2em;
+    gap: 5em;
+    width: 900px;
+
+    button {
+      border-color: #e5e7eb;
+      border: solid;
+      width: 20%;
+    }
+  }
+
+  .sign-up-txt {
+    color: #e5e7eb;
+    padding: 0;
+    margin: 0;
+
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+footer {
+  background-color: #1f2937;
+  padding: 1em;
+  text-align: center;
+  margin-top: 2em;
 }
